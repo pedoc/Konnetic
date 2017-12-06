@@ -1,0 +1,1 @@
+ MSBuild.exe Konnetic.Sip.csproj /t:Build /fl /p:Configuration=Release /m:2

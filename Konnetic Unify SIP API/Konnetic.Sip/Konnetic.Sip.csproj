@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5CBEDCD7-D67E-4AD0-AC52-84626CFBB94D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Konnetic.Sip</RootNamespace>
+    <AssemblyName>Konnetic.Sip</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS_DEL </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRules>-Microsoft.Naming#CA1704</CodeAnalysisRules>
+    <DocumentationFile>bin\Debug\Konnetic.Sip.XML</DocumentationFile>
+    <NoWarn>0659, 0661</NoWarn>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Documentation|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <Optimize>true</Optimize>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Performance|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files (x86)\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Setup|AnyCPU' ">
+    <OutputPath>bin\Setup\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files (x86)\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Advanced\PropertyVerifier.cs" />
+    <Compile Include="Advanced\Syntax_Convert.cs" />
+    <Compile Include="Advanced\SipGuid.cs" />
+    <Compile Include="Advanced\UrlSyntax.cs" />
+    <Compile Include="Exceptions\SipParseException.cs" />
+    <Compile Include="Exceptions\SipOutOfRangeException.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Headers\AcceptHeaderField.cs" />
+    <Compile Include="Headers\AcceptEncodingHeaderField.cs" />
+    <Compile Include="Headers\AcceptLanguageHeaderField.cs" />
+    <Compile Include="Headers\AlertInfoHeaderField.cs" />
+    <Compile Include="Headers\AllowHeaderField.cs" />
+    <Compile Include="Headers\AuthorizationHeaderField.cs" />
+    <Compile Include="Headers\AuthenticationInfoHeaderField.cs" />
+    <Compile Include="Headers\CallInfoHeaderField.cs" />
+    <Compile Include="Headers\BaseHeaderFields\ChallengeHeaderFieldBase.cs" />
+    <Compile Include="Headers\ContentDispositionHeaderField.cs" />
+    <Compile Include="Headers\ContentEncodingHeaderField.cs" />
+    <Compile Include="Headers\ContentLanguageHeaderField.cs" />
+    <Compile Include="Headers\ContentLengthHeaderField.cs" />
+    <Compile Include="Headers\ContentTypeHeaderField.cs" />
+    <Compile Include="Headers\BaseHeaderFields\AuthorizationHeaderFieldBase.cs" />
+    <Compile Include="Headers\SupportTypes\CallInfoPurpose.cs" />
+    <Compile Include="Headers\BaseHeaderFields\CallIdHeaderFieldBase.cs" />
+    <Compile Include="Headers\SupportTypes\SipUriParameterCollection.cs" />
+    <Compile Include="Headers\SupportTypes\HeaderFieldReader.cs" />
+    <Compile Include="Headers\BaseHeaderFields\AbsoluteUriHeaderFieldBase.cs" />
+    <Compile Include="Headers\BaseHeaderFields\SchemeAuthHeaderFieldBase.cs" />
+    <Compile Include="Headers\BaseHeaderFields\MediaTypeHeaderFieldBase.cs" />
+    <Compile Include="Headers\SupportTypes\ContentDispositionHandling.cs" />
+    <Compile Include="Headers\SupportTypes\DispositionType.cs" />
+    <Compile Include="Headers\SupportTypes\SipParameterCollectionEnumerator.cs" />
+    <Compile Include="Headers\SupportTypes\SipWarningCode.cs" />
+    <Compile Include="Headers\WarningHeaderField.cs" />
+    <Compile Include="Headers\TimestampHeaderField.cs" />
+    <Compile Include="Headers\UserAgentHeaderField.cs" />
+    <Compile Include="Headers\ServerHeaderField.cs" />
+    <Compile Include="Headers\SubjectHeaderField.cs" />
+    <Compile Include="Headers\BaseHeaderFields\ServerValueHeaderFieldBase.cs" />
+    <Compile Include="Headers\RetryAfterHeaderField.cs" />
+    <Compile Include="Headers\ExpiresHeaderField.cs" />
+    <Compile Include="Headers\ReplyToHeaderField.cs" />
+    <Compile Include="Headers\RecordRouteHeaderField.cs" />
+    <Compile Include="Headers\ProxyAuthorizationHeaderField.cs" />
+    <Compile Include="Headers\ProxyAuthenticateHeaderField.cs" />
+    <Compile Include="Headers\SupportTypes\Priority.cs" />
+    <Compile Include="Headers\PriorityHeaderField.cs" />
+    <Compile Include="Headers\OrganizationHeaderField.cs" />
+    <Compile Include="Headers\MinExpiresHeaderField.cs" />
+    <Compile Include="Headers\MimeVersionHeaderField.cs" />
+    <Compile Include="Headers\InReplyToHeaderField.cs" />
+    <Compile Include="Headers\BaseHeaderFields\SecondsHeaderFieldBase.cs" />
+    <Compile Include="Headers\ErrorInfoHeaderField.cs" />
+    <Compile Include="Headers\DateHeaderField.cs" />
+    <Compile Include="Headers\SupportTypes\MediaType.cs" />
+    <Compile Include="Headers\BaseHeaderFields\QValueHeaderFieldBase.cs" />
+    <Compile Include="Headers\WwwAuthenticateHeaderField.cs" />
+    <Compile Include="Messages\SuccessfulResponse.cs" />
+    <Compile Include="Messages\ProvisionalResponse.cs" />
+    <Compile Include="PacketReceivedEventArgs.cs" />
+    <Compile Include="Exceptions\SipTransportException.cs" />
+    <Compile Include="NoneInviteServerTransactionState.cs" />
+    <Compile Include="UnmatchedResponseEventArgs.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="ClientTransaction.cs" />
+    <Compile Include="AfterSendingResponseEventArgs.cs" />
+    <Compile Include="BeforeSendingResponseEventArgs.cs" />
+    <Compile Include="Headers\StatusLineHeaderField.cs" />
+    <Compile Include="NewRequestReceivedEventArgs.cs" />
+    <Compile Include="Messages\ResponsePhrases.cs" />
+    <Compile Include="Messages\StandardResponseCode.cs" />
+    <Compile Include="ServerTransaction.cs" />
+    <Compile Include="NoneInviteServerTransaction.cs" />
+    <Compile Include="Exceptions\SipFormatException.cs" />
+    <Compile Include="Exceptions\SipUriFormatException.cs" />
+    <Compile Include="Exceptions\SipException.cs" />
+    <Compile Include="Headers\ContactHeaderField.cs" />
+    <Compile Include="Headers\ProxyRequireHeaderField.cs" />
+    <Compile Include="Headers\RequireHeaderField.cs" />
+    <Compile Include="Headers\SupportedHeaderField.cs" />
+    <Compile Include="Headers\BaseHeaderFields\OptionHeaderFieldBase.cs" />
+    <Compile Include="Headers\UnsupportedHeaderField.cs" />
+    <Compile Include="Headers\BaseHeaderFields\TagAddressedHeaderFieldBase.cs" />
+    <Compile Include="Headers\CSeqHeaderField.cs" />
+    <Compile Include="Headers\RequestLineHeaderField.cs" />
+    <Compile Include="Headers\MaxForwardsHeaderField.cs" />
+    <Compile Include="ClientTransactionState.cs" />
+    <Compile Include="Headers\ViaHeaderField.cs" />
+    <Compile Include="Headers\SupportTypes\MessageType.cs" />
+    <Compile Include="Messages\RequestFactory.cs" />
+    <Compile Include="Messages\Response.cs" />
+    <Compile Include="Messages\ResponseClass.cs" />
+    <Compile Include="InviteServerTransaction.cs" />
+    <Compile Include="InviteServerTransactionState.cs" />
+    <Compile Include="SipStack.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="TransactionRegistry.cs" />
+    <Compile Include="TransportServer.cs" />
+    <Compile Include="Headers\BaseHeaderFields\AddressedHeaderFieldBase.cs" />
+    <Compile Include="Headers\SupportTypes\AuthHeaderFieldGroup.cs" />
+    <Compile Include="Headers\BaseHeaderFields\SecurityHeaderFieldBase.cs" />
+    <Compile Include="Headers\RouteHeaderField.cs" />
+    <Compile Include="Headers\SupportTypes\HeaderFieldGroup.cs" />
+    <Compile Include="Headers\BaseHeaderFields\SipUriHeaderFieldBase.cs" />
+    <Compile Include="Headers\BaseHeaderFields\ParamatizedHeaderFieldBase.cs" />
+    <Compile Include="Headers\ExtensionHeaderField.cs" />
+    <Compile Include="Advanced\Syntax_Check.cs" />
+    <Compile Include="Advanced\SipEnum.cs" />
+    <Compile Include="SipScheme.cs" />
+    <Compile Include="Dialog.cs" />
+    <Compile Include="Exceptions\SipDuplicateItemException.cs" />
+    <Compile Include="Headers\SupportTypes\HeaderFieldCollection.cs" />
+    <Compile Include="Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Advanced\SipUriBuilder.cs" />
+    <Compile Include="SipUriComponents.cs" />
+    <Compile Include="Advanced\SR.cs" />
+    <Compile Include="Headers\CallIdHeaderField.cs" />
+    <Compile Include="Headers\FromHeaderField.cs" />
+    <Compile Include="Headers\SupportTypes\HeaderFieldFactory.cs" />
+    <Compile Include="Headers\SupportTypes\SipParameterCollection.cs" />
+    <Compile Include="Headers\ToHeaderField.cs" />
+    <Compile Include="Headers\BaseHeaderFields\HeaderFieldBase.cs" />
+    <Compile Include="Headers\SupportTypes\SipParameter.cs" />
+    <Compile Include="Headers\SupportTypes\MessageFormatter.cs" />
+    <Compile Include="Headers\SupportTypes\HeaderFieldEventArgs.cs" />
+    <Compile Include="Messages\SipMessage.cs" />
+    <Compile Include="Headers\SupportTypes\RequestMessageFormatter.cs" />
+    <Compile Include="Messages\Invite.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DialogState.cs" />
+    <Compile Include="SipUri.cs" />
+    <Compile Include="Advanced\SipStyleUriParser.cs" />
+    <Compile Include="Messages\SipMethod.cs" />
+    <Compile Include="TransportType.cs" />
+    <Compile Include="Messages\Request.cs" />
+    <Compile Include="TransportClient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Models\HighestLeveSIPObjects.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildProjectDirectory)\..\Konnetic.Sip.MSBuild.proj" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  <Message Text="Importing Konnetic.Sip.MSBuild.targets" />
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

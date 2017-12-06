@@ -1,0 +1,30 @@
+------ Rebuild All started: Project: Konnetic.Sip, Configuration: Debug Any CPU ------
+c:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning MSB3251: Could not resolve assembly System.Xml.Linq. The target framework required by this assembly (3.5) is higher than the project target framework. If this reference is required by your code, you may get compilation errors.
+c:\Windows\Microsoft.NET\Framework\v3.5\Microsoft.Common.targets : warning MSB3251: Could not resolve assembly System.Data.DataSetExtensions. The target framework required by this assembly (3.5) is higher than the project target framework. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v3.5\Csc.exe /noconfig /nowarn:1701,1702 /errorreport:prompt /warn:4 /define:CODE_ANALYSIS;DEBUG;TRACE /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\Konnetic.Sip.dll /target:library ClientTransaction.cs Dialog.cs HeaderField.cs HeaderFieldClassification.cs Methods\Invite.cs Properties\AssemblyInfo.cs ResponseCodeClass.cs SIPClient.cs Transport.cs
+D:\Business\Development\Konnetic\KonneticUnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\SIPClient.cs(40,29): warning CS0067: The event 'Konnetic.Sip.SIPClient.Ringing' is never used
+
+Compile complete -- 0 errors, 1 warnings
+Konnetic.Sip -> D:\Business\Development\Konnetic\KonneticUnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\bin\Debug\Konnetic.Sip.dll
+Running Code Analysis...
+C:\Program Files (x86)\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe  /outputCulture:1033 /out:"bin\Debug\Konnetic.Sip.dll.CodeAnalysisLog.xml" /file:"bin\Debug\Konnetic.Sip.dll" /directory:"C:\Windows\Microsoft.NET\Framework\v2.0.50727" /rule:"C:\Program Files (x86)\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules" /searchgac /ignoreinvalidtargets /forceoutput /successfile /ignoregeneratedcode /saveMessagesToReport:Active /targetframeworkversion:v2.0 /timeout:120
+MSBUILD : warning : CA1020 : Microsoft.Design : Consider merging the types defined in 'Konnetic.Sip' with another namespace.
+MSBUILD : warning : CA1704 : Microsoft.Naming : Correct the spelling of 'Konnetic' in namespace name 'Konnetic.Sip'.
+MSBUILD : warning : CA2210 : Microsoft.Design : Sign 'Konnetic.Sip.dll' with a strong name key.
+MSBUILD : warning : CA1704 : Microsoft.Naming : Correct the spelling of 'Konnetic' in assembly name 'Konnetic.Sip.dll'.
+MSBUILD : warning : CA1014 : Microsoft.Design : Mark 'Konnetic.Sip.dll' with CLSCompliant(true) because it exposes externally visible types.
+MSBUILD : warning : CA1811 : Microsoft.Performance : 'Dialog._Contact.get()' appears to have no upstream public or protected callers.
+MSBUILD : warning : CA1811 : Microsoft.Performance : 'Dialog._Transactions.set(Dictionary<string, ClientTransaction>)' appears to have no upstream public or protected callers.
+MSBUILD : warning : CA1811 : Microsoft.Performance : 'HeaderField.Classification.get()' appears to have no upstream public or protected callers.
+MSBUILD : warning : CA1811 : Microsoft.Performance : 'HeaderField.Classification.set(HeaderFieldClassification)' appears to have no upstream public or protected callers.
+MSBUILD : warning : CA1709 : Microsoft.Naming : Correct the casing of 'SIP' in type name 'SIPClient' by changing it to 'Sip'.
+D:\Business\Development\Konnetic\KonneticUnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\SIPClient.cs(40): warning : CA1805 : Microsoft.Performance : 'SIPClient.SIPClient()' initializes field 'SIPClient.Ringing' of type 'EventHandler' to null. Remove this initialization because it will be done automatically by the runtime.
+MSBUILD : warning : CA1811 : Microsoft.Performance : 'SIPClient._Conversations.set(Dictionary<string, Dialog>)' appears to have no upstream public or protected callers.
+D:\Business\Development\Konnetic\KonneticUnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\SIPClient.cs(34): warning : CA1822 : Microsoft.Performance : The 'this' parameter (or 'Me' in Visual Basic) of 'SIPClient.Accept()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.
+D:\Business\Development\Konnetic\KonneticUnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\SIPClient.cs(25): warning : CA1709 : Microsoft.Naming : In member 'SIPClient.MakeCall(string)', correct the casing of 'Contact' in parameter name 'Contact' by changing it to 'contact'.
+D:\Business\Development\Konnetic\KonneticUnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\SIPClient.cs(30): warning : CA1822 : Microsoft.Performance : The 'this' parameter (or 'Me' in Visual Basic) of 'SIPClient.Reject()' is never used. Mark the member as static (or Shared in Visual Basic) or use 'this'/'Me' in the method body or at least one property accessor, if appropriate.
+D:\Business\Development\Konnetic\KonneticUnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\Transport.cs(10): warning : CA1801 : Microsoft.Usage : Parameter 'request' of 'Transport.Send(Invite)' is never used. Remove the parameter or use it in the method body.
+MSBUILD : warning : CA1811 : Microsoft.Performance : 'Invite._Contact.get()' appears to have no upstream public or protected callers.
+Code Analysis Complete -- 0 error(s), 17 warning(s)
+Done building project "Konnetic.Sip.csproj".
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

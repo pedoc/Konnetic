@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FromHeaderFieldHiddenDisplayName" xml:space="preserve">
+    <value>"Anonymous"</value>
+  </data>
+  <data name="HiddenAddress" xml:space="preserve">
+    <value>"Anonymous" &lt;sip:unknown@private&gt;</value>
+  </data>
+  <data name="EmptyString" xml:space="preserve">
+    <value>The string argument cannot be null or zero length.</value>
+  </data>
+  <data name="HeaderFieldDuplicate" xml:space="preserve">
+    <value>Cannot add duplicate field ('{0}') to HeaderFieldCollection. Use a group instead.</value>
+  </data>
+  <data name="NullCollectionMember" xml:space="preserve">
+    <value>The collection supplied should not contain null member.</value>
+  </data>
+  <data name="OutOfRangeFloat" xml:space="preserve">
+    <value>The value {0} is out of the expected range {1}..{2}.</value>
+  </data>
+  <data name="OutOfRangeLong" xml:space="preserve">
+    <value>The value {0} is out of the expected range {1}..{2}.</value>
+  </data>
+  <data name="OutOfRangeString" xml:space="preserve">
+    <value>The length for parameter {0} is out of the expected range {1}..{2}.</value>
+  </data>
+  <data name="SecureHiddenAddress" xml:space="preserve">
+    <value>"Anonymous" &lt;sips:unknown@private&gt;</value>
+  </data>
+  <data name="OutOfRangeByte" xml:space="preserve">
+    <value>The value {0} is out of the expected range {1}..{2}.</value>
+  </data>
+  <data name="OutOfRangeDouble" xml:space="preserve">
+    <value>The value {0} is out of the expected range {1}..{2}.</value>
+  </data>
+  <data name="ParseException" xml:space="preserve">
+    <value>The string was not correctly formatted to parse ({0}).</value>
+  </data>
+  <data name="PropertyParseException" xml:space="preserve">
+    <value>An exception occured when parsing property '{0}'.</value>
+  </data>
+  <data name="InvalidHostString" xml:space="preserve">
+    <value>The value {0} must be a valid host. </value>
+  </data>
+  <data name="InvalidIPAddressString" xml:space="preserve">
+    <value>The value {0} must be a valid IPAddress.</value>
+  </data>
+  <data name="InvalidQuotedTokenWithCommaString" xml:space="preserve">
+    <value>The value {0} must be a (optionally quoted) comma seperated list of tokens. (token = alphanum / "-" / "." / "!" / "%" / "*"
+/ "_" / "+" / "‘" / "'" / "˜")</value>
+  </data>
+  <data name="InvalidTokenString" xml:space="preserve">
+    <value>The value {0} must be a token. (token = alphanum / "-" / "." / "!" / "%" / "*"
+/ "_" / "+" / "‘" / "'" / "˜")</value>
+  </data>
+  <data name="ByteConvertException" xml:space="preserve">
+    <value>Cannot convert the string value ({0}) to a byte for field value '{1}'.</value>
+  </data>
+  <data name="FloatConvertException" xml:space="preserve">
+    <value>Cannot convert the string value ({0}) to a float for field value '{1}'.</value>
+  </data>
+  <data name="GeneralParseException" xml:space="preserve">
+    <value>An exception occured whilst parsing value ({0}) for for field value '{1}'.</value>
+  </data>
+  <data name="IntegerConvertException" xml:space="preserve">
+    <value>Cannot convert the string value ({0}) to an integer for field value'{1}'.</value>
+  </data>
+  <data name="OutOfRangeException" xml:space="preserve">
+    <value>Value ({0}) is too large  for field value '{1}' which expects values between {2} and {3}.</value>
+  </data>
+  <data name="OverflowException" xml:space="preserve">
+    <value>Value ({0}) is too large  for field value '{1}'.</value>
+  </data>
+  <data name="Warning0" xml:space="preserve">
+    <value>Unknown Code.</value>
+  </data>
+  <data name="Warning300" xml:space="preserve">
+    <value>One or more network protocols contained in the session description are not available.</value>
+  </data>
+  <data name="Warning301" xml:space="preserve">
+    <value>One or more network address formats contained in the session description are not available.</value>
+  </data>
+  <data name="Warning302" xml:space="preserve">
+    <value>One or more transport protocols described in the session description are not available.</value>
+  </data>
+  <data name="Warning303" xml:space="preserve">
+    <value>One or more bandwidth measurement units contained in the session description were not understood.</value>
+  </data>
+  <data name="Warning304" xml:space="preserve">
+    <value>One or more media types contained in the session description are not available.</value>
+  </data>
+  <data name="Warning305" xml:space="preserve">
+    <value>One or more media formats contained in the session description are not available.</value>
+  </data>
+  <data name="DuplicateHeaderParameter" xml:space="preserve">
+    <value>Parameter ({0}) already exists as a header field parameter.</value>
+  </data>
+  <data name="OutOfRangeParameter" xml:space="preserve">
+    <value>Parameter {0} out of range.</value>
+  </data>
+  <data name="Warning306" xml:space="preserve">
+    <value>One or more of the media attributes in the session description are not supported.</value>
+  </data>
+  <data name="Warning307" xml:space="preserve">
+    <value>A parameter other than those listed above was not understood.</value>
+  </data>
+  <data name="Warning330" xml:space="preserve">
+    <value>The site where the user is located does not support multicast.</value>
+  </data>
+  <data name="Warning331" xml:space="preserve">
+    <value>The site where the user is located does not support unicast communication.</value>
+  </data>
+  <data name="Warning370" xml:space="preserve">
+    <value>The bandwidth specified in the session description or defined by the media exceeds that known to be available.</value>
+  </data>
+  <data name="Warning399" xml:space="preserve">
+    <value>The warning text can include arbitrary information to be presented to a human user or logged.</value>
+  </data>
+  <data name="IllegalParameterNameException" xml:space="preserve">
+    <value>Illegal characters found in parameter name.</value>
+  </data>
+  <data name="InvalidPasswordString" xml:space="preserve">
+    <value>Password parameter contains illegal characters. Check for '@','?','/',';' and ':' characters.</value>
+  </data>
+  <data name="InvalidUsernameString" xml:space="preserve">
+    <value>Username contains illegal characters. Ensure the username does not contain an unescaped ':' or '@' character.</value>
+  </data>
+</root>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="105c2330-2423-46f9-8c84-43799d25c352" name="James@SERVER001 2009-11-04 13:40:30" runUser="Server001\James" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4e895dc2-02da-4f57-879f-68a28c9603de">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\Business\Development\Konnetic\SIPDLLC#\Konnetic.SIP\TestResults\James_SERVER001 2009-11-04 13_40_30">
+      <DeploymentItem filename="D:\Business\Development\Konnetic\SIPDLLC#\Konnetic.SIP\bin\Debug\Konnetic.SIP.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-11-04T13:40:30.5548576+11:00" queuing="2009-11-04T13:40:34.5618576+11:00" start="2009-11-04T13:40:34.8328576+11:00" finish="2009-11-04T13:40:36.0098576+11:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\business\development\konnetic\sipdllc#\konnetic.sip\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" id="a3c89297-868d-8d6b-1260-6635f71ec011">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="44c35e23-8ca0-4317-b2b6-777e3b76857c" />
+      <TestMethod codeBase="D:\Business\Development\Konnetic\SIPDLLC#\Konnetic.SIP\Konnetic.SIP.unittests\bin\Debug\Konnetic.SIP.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Konnetic.SIP.UnitTests.AcceptHeaderField, Konnetic.SIP.UnitTests" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="d:\business\development\konnetic\sipdllc#\konnetic.sip\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" id="6fa11783-a638-4208-b4bf-ad55dbdc3bfe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="eb40d744-e7a5-47f9-a2c9-fb4bba3f34e3" />
+      <TestMethod codeBase="D:\Business\Development\Konnetic\SIPDLLC#\Konnetic.SIP\Konnetic.SIP.unittests\bin\Debug\Konnetic.SIP.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="com.imsapi.sip.unittests.Invite, Konnetic.SIP.UnitTests" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a3c89297-868d-8d6b-1260-6635f71ec011" executionId="44c35e23-8ca0-4317-b2b6-777e3b76857c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6fa11783-a638-4208-b4bf-ad55dbdc3bfe" executionId="eb40d744-e7a5-47f9-a2c9-fb4bba3f34e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="44c35e23-8ca0-4317-b2b6-777e3b76857c" testId="a3c89297-868d-8d6b-1260-6635f71ec011" testName="TestMethod1" computerName="SERVER001" duration="00:00:00.0186740" startTime="2009-11-04T13:40:34.9298576+11:00" endTime="2009-11-04T13:40:35.9358576+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eb40d744-e7a5-47f9-a2c9-fb4bba3f34e3" testId="6fa11783-a638-4208-b4bf-ad55dbdc3bfe" testName="TestMethod1" computerName="SERVER001" duration="00:00:00.0004175" startTime="2009-11-04T13:40:35.9378576+11:00" endTime="2009-11-04T13:40:35.9418576+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,5 @@
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip.UnitTests\bin\Release\Konnetic.Sip.UnitTests.dll
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip.UnitTests\bin\Release\Konnetic.Sip.UnitTests.pdb
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip.UnitTests\obj\Release\ResolveAssemblyReference.cache
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip.UnitTests\obj\Release\Konnetic.Sip.UnitTests.dll
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip.UnitTests\obj\Release\Konnetic.Sip.UnitTests.pdb

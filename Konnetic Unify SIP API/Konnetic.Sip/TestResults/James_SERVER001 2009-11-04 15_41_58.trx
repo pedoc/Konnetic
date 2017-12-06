@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="01c513f6-052f-4afd-a56e-74ebaf284d06" name="James@SERVER001 2009-11-04 15:41:58" runUser="Server001\James" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4e895dc2-02da-4f57-879f-68a28c9603de">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <CodeCoverage enabled="true">
+      <Regular>
+        <CodeCoverageItem binaryFile="D:\Business\Development\Konnetic\UnifySipApi\Production\bin\Debug\Konnetic.Sip.dll" pdbFile="D:\Business\Development\Konnetic\UnifySipApi\Production\bin\Debug\Konnetic.Sip.instr.pdb" instrumentInPlace="true" />
+      </Regular>
+    </CodeCoverage>
+    <Deployment runDeploymentRoot="D:\Business\Development\Konnetic\UnifySipApi\Production\TestResults\James_SERVER001 2009-11-04 15_41_58">
+      <DeploymentItem filename="D:\Business\Development\Konnetic\UnifySipApi\Production\bin\Debug\Konnetic.Sip.dll" />
+    </Deployment>
+    <Plugins>
+      <Plugin>Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, PublicKeyToken=b03f5f7f11d50a3a</Plugin>
+    </Plugins>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Warning">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="SERVER001" outcome="Warning" timestamp="2009-11-04T15:41:59.4130307+11:00">
+        <Text>Code coverage instrumentation warning while processing file Konnetic.Sip.dll:
+Warning VSP2001 : D:\Business\Development\Konnetic\UnifySipApi\Production\bin\Debug\Konnetic.Sip.dll is a strongly named assembly.  It will need to be re-signed before it can be executed.
+Warning VSP2013 : Instrumenting this image requires it to run as a 32-bit process.  The CLR header flags have been updated to reflect this.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2009-11-04T15:41:58.0160307+11:00" queuing="2009-11-04T15:42:00.2660307+11:00" start="2009-11-04T15:42:00.4800307+11:00" finish="2009-11-04T15:42:03.3220307+11:00" />
+  <TestDefinitions>
+    <UnitTest name="TestConstructor" storage="d:\business\development\konnetic\unifysipapi\production\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" id="f3a85531-696a-5bb5-3184-a6385fce8d8c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bc040592-a296-459e-a0f5-e5a8a6182d2c" />
+      <TestMethod codeBase="D:\Business\Development\Konnetic\UnifySipApi\Production\Konnetic.SIP.unittests\bin\Debug\Konnetic.Sip.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Konnetic.SIP.UnitTests.Invite, Konnetic.Sip.UnitTests" name="TestConstructor" />
+    </UnitTest>
+    <UnitTest name="TestRequestProperties" storage="d:\business\development\konnetic\unifysipapi\production\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" id="d33f94f9-5796-b9e5-e9e2-290d13f829e8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="36adb747-0d96-41d0-bfda-9ec240a132b7" />
+      <TestMethod codeBase="D:\Business\Development\Konnetic\UnifySipApi\Production\Konnetic.SIP.unittests\bin\Debug\Konnetic.Sip.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Konnetic.SIP.UnitTests.Invite, Konnetic.Sip.UnitTests" name="TestRequestProperties" />
+    </UnitTest>
+    <UnitTest name="TestConstructor" storage="d:\business\development\konnetic\unifysipapi\production\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" id="b656db89-18bb-7f8c-0ba7-9e4af0c54ddc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="87ef564c-4c93-47e7-8995-7d7592ae9468" />
+      <TestMethod codeBase="D:\Business\Development\Konnetic\UnifySipApi\Production\Konnetic.SIP.unittests\bin\Debug\Konnetic.Sip.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Konnetic.SIP.UnitTests.AcceptHeaderField, Konnetic.Sip.UnitTests" name="TestConstructor" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="All Tests" id="10fd1811-74ec-44bf-a72e-d9c3781d7f90" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <Description>Run all test</Description>
+      <TestLinks>
+        <TestLink id="f3a85531-696a-5bb5-3184-a6385fce8d8c" name="TestConstructor" storage="d:\business\development\konnetic\unifysipapi\production\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="d33f94f9-5796-b9e5-e9e2-290d13f829e8" name="TestRequestProperties" storage="d:\business\development\konnetic\unifysipapi\production\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="b656db89-18bb-7f8c-0ba7-9e4af0c54ddc" name="TestConstructor" storage="d:\business\development\konnetic\unifysipapi\production\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+    <TestList name="Lists of Results" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f3a85531-696a-5bb5-3184-a6385fce8d8c" executionId="bc040592-a296-459e-a0f5-e5a8a6182d2c" testListId="10fd1811-74ec-44bf-a72e-d9c3781d7f90" />
+    <TestEntry testId="d33f94f9-5796-b9e5-e9e2-290d13f829e8" executionId="36adb747-0d96-41d0-bfda-9ec240a132b7" testListId="10fd1811-74ec-44bf-a72e-d9c3781d7f90" />
+    <TestEntry testId="b656db89-18bb-7f8c-0ba7-9e4af0c54ddc" executionId="87ef564c-4c93-47e7-8995-7d7592ae9468" testListId="10fd1811-74ec-44bf-a72e-d9c3781d7f90" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bc040592-a296-459e-a0f5-e5a8a6182d2c" testId="f3a85531-696a-5bb5-3184-a6385fce8d8c" testName="TestConstructor" computerName="SERVER001" duration="00:00:00.0141311" startTime="2009-11-04T15:42:00.9460307+11:00" endTime="2009-11-04T15:42:01.7010307+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="10fd1811-74ec-44bf-a72e-d9c3781d7f90">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="36adb747-0d96-41d0-bfda-9ec240a132b7" testId="d33f94f9-5796-b9e5-e9e2-290d13f829e8" testName="TestRequestProperties" computerName="SERVER001" duration="00:00:00.0002098" startTime="2009-11-04T15:42:01.7100307+11:00" endTime="2009-11-04T15:42:01.7140307+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="10fd1811-74ec-44bf-a72e-d9c3781d7f90">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87ef564c-4c93-47e7-8995-7d7592ae9468" testId="b656db89-18bb-7f8c-0ba7-9e4af0c54ddc" testName="TestConstructor" computerName="SERVER001" duration="00:00:00.0003633" startTime="2009-11-04T15:42:01.7150307+11:00" endTime="2009-11-04T15:42:01.7180307+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="10fd1811-74ec-44bf-a72e-d9c3781d7f90">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

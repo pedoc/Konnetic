@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="67d05cc2-15e3-421a-a11d-06f793066b4e" name="James@SERVER001 2009-11-04 14:53:04" runUser="Server001\James" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="4e895dc2-02da-4f57-879f-68a28c9603de">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\Business\Development\Konnetic\SIPDLLC#\Konnetic.SIP\TestResults\James_SERVER001 2009-11-04 14_53_04">
+      <DeploymentItem filename="D:\Business\Development\Konnetic\SIPDLLC#\Konnetic.SIP\bin\Debug\Konnetic.SIP.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-11-04T14:53:04.4200307+11:00" queuing="2009-11-04T14:53:04.8900307+11:00" start="2009-11-04T14:53:04.9090307+11:00" finish="2009-11-04T14:53:05.5150307+11:00" />
+  <TestDefinitions>
+    <UnitTest name="TestConstructor" storage="d:\business\development\konnetic\sipdllc#\konnetic.sip\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" id="f3a85531-696a-5bb5-3184-a6385fce8d8c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6520411e-ba72-40d5-8f5f-9268555ca40f" />
+      <TestMethod codeBase="D:\Business\Development\Konnetic\SIPDLLC#\Konnetic.SIP\Konnetic.SIP.unittests\bin\Debug\Konnetic.Sip.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Konnetic.SIP.UnitTests.Invite, Konnetic.Sip.UnitTests" name="TestConstructor" />
+    </UnitTest>
+    <UnitTest name="TestRequestProperties" storage="d:\business\development\konnetic\sipdllc#\konnetic.sip\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" id="d33f94f9-5796-b9e5-e9e2-290d13f829e8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="811b3ed2-7367-4a71-bdc6-e2b4605d2252" />
+      <TestMethod codeBase="D:\Business\Development\Konnetic\SIPDLLC#\Konnetic.SIP\Konnetic.SIP.unittests\bin\Debug\Konnetic.Sip.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Konnetic.SIP.UnitTests.Invite, Konnetic.Sip.UnitTests" name="TestRequestProperties" />
+    </UnitTest>
+    <UnitTest name="TestConstructor" storage="d:\business\development\konnetic\sipdllc#\konnetic.sip\konnetic.sip.unittests\bin\debug\konnetic.sip.unittests.dll" id="b656db89-18bb-7f8c-0ba7-9e4af0c54ddc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="be81648f-41c7-4fa7-9134-089509350212" />
+      <TestMethod codeBase="D:\Business\Development\Konnetic\SIPDLLC#\Konnetic.SIP\Konnetic.SIP.unittests\bin\Debug\Konnetic.Sip.UnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Konnetic.SIP.UnitTests.AcceptHeaderField, Konnetic.Sip.UnitTests" name="TestConstructor" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b656db89-18bb-7f8c-0ba7-9e4af0c54ddc" executionId="be81648f-41c7-4fa7-9134-089509350212" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d33f94f9-5796-b9e5-e9e2-290d13f829e8" executionId="811b3ed2-7367-4a71-bdc6-e2b4605d2252" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3a85531-696a-5bb5-3184-a6385fce8d8c" executionId="6520411e-ba72-40d5-8f5f-9268555ca40f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="be81648f-41c7-4fa7-9134-089509350212" testId="b656db89-18bb-7f8c-0ba7-9e4af0c54ddc" testName="TestConstructor" computerName="SERVER001" duration="00:00:00.0124661" startTime="2009-11-04T14:53:04.9110307+11:00" endTime="2009-11-04T14:53:05.4960307+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="811b3ed2-7367-4a71-bdc6-e2b4605d2252" testId="d33f94f9-5796-b9e5-e9e2-290d13f829e8" testName="TestRequestProperties" computerName="SERVER001" duration="00:00:00.0003968" startTime="2009-11-04T14:53:05.4970307+11:00" endTime="2009-11-04T14:53:05.5000307+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6520411e-ba72-40d5-8f5f-9268555ca40f" testId="f3a85531-696a-5bb5-3184-a6385fce8d8c" testName="TestConstructor" computerName="SERVER001" duration="00:00:00.0002021" startTime="2009-11-04T14:53:05.5010307+11:00" endTime="2009-11-04T14:53:05.5030307+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

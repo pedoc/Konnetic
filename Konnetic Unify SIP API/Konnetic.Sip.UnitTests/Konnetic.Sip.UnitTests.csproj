@@ -1,0 +1,153 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4EDFE3CA-C2F1-45E5-9648-4A5BE2398663}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Konnetic.Sip.UnitTests</RootNamespace>
+    <AssemblyName>Konnetic.Sip.UnitTests</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Setup|AnyCPU' ">
+    <OutputPath>bin\Setup\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleAssemblies>C:\Program Files (x86)\Microsoft Visual Studio 9.0\Team Tools\Static Analysis Tools\FxCop\Rules</CodeAnalysisRuleAssemblies>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcceptEncodingHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\AcceptEncodingHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\AcceptHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\AcceptLanguageHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\AlertInfoHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\AllowHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\AuthenticationInfoHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\AuthorizationHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\AuthorizationHeaderFieldBaseAdapter.cs" />
+    <Compile Include="HeaderFields\CallIdHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\CallInfoHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ChallengeHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ClientTransactionAdapter.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="HeaderFields\ContactHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ContentDispositionHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ContentEncodingHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ContentLanguageHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ContentLengthHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ContentTypeHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\CSeqHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\DateHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ErrorHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ExpiresHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\GenericHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\HeaderFieldCollectionAdapter.cs" />
+    <Compile Include="HeaderFields\HeaderFieldFactoryAdapter.cs" />
+    <Compile Include="HeaderFields\HeaderFieldGroupAdapter.cs" />
+    <Compile Include="HeaderFields\HttpUriHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\InReplyToHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\MaxForwardsHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\MediaTypeHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\MimeVersionHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\MinExpiresHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\OptionHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\OrganizationHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ParamatizedHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\PriorityHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ProxyAuthenticateHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ProxyAuthorizationHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ProxyRequireHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\QValueHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\RecordRouteHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ReplyToHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\RequireHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\RetryAfterHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\RouteHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\SecondsHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\SecurityHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\SecurityHeaderFieldBaseAdapter.cs" />
+    <Compile Include="HeaderFields\SecurityHeaderFieldGroupAdapter.cs" />
+    <Compile Include="HeaderFields\ServerHeaderFieldAdapter.cs" />
+    <Compile Include="RequestLineHeaderFieldAdapter.cs" />
+    <Compile Include="SipUriAdapter.cs" />
+    <Compile Include="SipUriBuilderAdapter.cs" />
+    <Compile Include="HeaderFields\SubjectHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\SupportedHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\TagAddressedHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\TimestampHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ToHeaderFieldAdapter.cs" />
+    <Compile Include="DialogAdapter.cs" />
+    <Compile Include="HeaderFields\FromHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\HeaderFieldBaseAdapter.cs" />
+    <Compile Include="HeaderFields\HeaderFieldEventArgsAdapter.cs" />
+    <Compile Include="InviteAdapter.cs" />
+    <Compile Include="MessageAdapter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestAdapter.cs" />
+    <Compile Include="RequestFactoryAdapter.cs" />
+    <Compile Include="SipMessageAdapter.cs" />
+    <Compile Include="HeaderFields\UnsupportedHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\UserAgentHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\ViaHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\WarningHeaderFieldAdapter.cs" />
+    <Compile Include="HeaderFields\WwwAuthenticateHeaderFieldAdapter.cs" />
+    <Compile Include="StatusLineHeaderFieldAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Konnetic.Sip\Konnetic.Sip.csproj">
+      <Project>{5CBEDCD7-D67E-4AD0-AC52-84626CFBB94D}</Project>
+      <Name>Konnetic.Sip</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <Shadow Include="Test References\Konnetic.Sip.accessor" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

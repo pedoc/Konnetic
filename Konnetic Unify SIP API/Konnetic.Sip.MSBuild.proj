@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="All" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+
+	<PropertyGroup>
+		<BuildDependsOn>
+			$(BuildDependsOn);KonneticSipBuild
+		</BuildDependsOn>
+	</PropertyGroup>
+
+<!--
+	<ProjectExtensions>
+		<ProjectFileVersion>2</ProjectFileVersion>
+
+	</ProjectExtensions>
+
+	<PropertyGroup>
+		<RunTest>true</RunTest>
+		<RunCodeAnalysis>Default</RunCodeAnalysis>
+		<WorkItemType>Bug</WorkItemType>
+		<WorkItemFieldValues>System.Reason=Build Failure;System.Description=Start the build using Team Build</WorkItemFieldValues>
+		<WorkItemTitle>Integration Build failure in build:</WorkItemTitle>
+		<DescriptionText>This work item was created by Team Build on a build failure.</DescriptionText>
+		<BuildlogText>The build log file is at:</BuildlogText>
+		<ErrorWarningLogText>The errors/warnings log file is at:</ErrorWarningLogText>
+		<UpdateAssociatedWorkItems>true</UpdateAssociatedWorkItems>
+		<AdditionalVCOverrides></AdditionalVCOverrides>
+		<CustomPropertiesForClean></CustomPropertiesForClean>
+		<CustomPropertiesForBuild></CustomPropertiesForBuild>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<SolutionToBuild Include="$(BuildProjectFolderPath)/../../Src/Konnetic Unify SIP API/Konnetic Unify SIP API.sln">
+			<Targets></Targets>
+			<Properties></Properties>
+		</SolutionToBuild>
+
+		<ConfigurationToBuild Include="Release|Any CPU">
+			<FlavorToBuild>Release</FlavorToBuild>
+			<PlatformToBuild>Any CPU</PlatformToBuild>
+		</ConfigurationToBuild>
+		
+		<MetaDataFile Include="$(BuildProjectFolderPath)/../../Src/Konnetic Unify SIP API/Konnetic Unify SIP API.vsmdi">
+			<TestList>Unify Build Validation Tests</TestList>
+		</MetaDataFile>
+		
+	</ItemGroup>
+ -->
+	
+<Target Name="KonneticSipBuild" >
+	<Message Text="Running desktop build" Condition="'$(IsDesktopBuild)'=='true'" />
+	<Message Text="Running end-to-end build" Condition="'$(IsDesktopBuild)'!='true'"  />
+	<Message Text="Build Complete!"  />
+</Target>
+
+	<Target Name="All" DependsOnTargets="KonneticSipBuild" />
+</Project>

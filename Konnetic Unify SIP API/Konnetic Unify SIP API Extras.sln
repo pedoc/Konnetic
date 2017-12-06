@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konnetic.Sip.Examples", "Konnetic.Sip.Examples\Konnetic.Sip.Examples.csproj", "{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konnetic.Sip.Documentation", "Konnetic.Sip.Documentation\Konnetic.Sip.Documentation.csproj", "{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://server004:8080/
+		SccLocalPath0 = Konnetic\u0020Unify\u0020SIP\u0020API\u0020Extras
+		SccProjectFilePathRelativizedFromConnection0 = ..\\
+		SccProjectUniqueName1 = Konnetic.Sip.Examples\\Konnetic.Sip.Examples.csproj
+		SccProjectName1 = Konnetic.Sip.Examples
+		SccLocalPath1 = Konnetic.Sip.Examples
+		SccProjectUniqueName2 = Konnetic.Sip.Documentation\\Konnetic.Sip.Documentation.csproj
+		SccProjectName2 = Konnetic.Sip.Documentation
+		SccLocalPath2 = Konnetic.Sip.Documentation
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Documentation|Any CPU = Documentation|Any CPU
+		Performance|Any CPU = Performance|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Setup|Any CPU = Setup|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}.Documentation|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}.Documentation|Any CPU.Build.0 = Debug|Any CPU
+		{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}.Performance|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}.Performance|Any CPU.Build.0 = Release|Any CPU
+		{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}.Setup|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C1D4DE-BB93-4A5A-8A77-8300DA1BD3AB}.Setup|Any CPU.Build.0 = Release|Any CPU
+		{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}.Documentation|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}.Documentation|Any CPU.Build.0 = Debug|Any CPU
+		{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}.Performance|Any CPU.ActiveCfg = Release|Any CPU
+		{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}.Performance|Any CPU.Build.0 = Release|Any CPU
+		{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}.Setup|Any CPU.ActiveCfg = Release|Any CPU
+		{97D80F9F-67FF-49FC-AE22-68BBCAFAA797}.Setup|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

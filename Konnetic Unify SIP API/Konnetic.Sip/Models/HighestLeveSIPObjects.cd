@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Konnetic.Sip.Messages.Invite">
+    <Position X="12.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAgAAAAgAAAAAAAIAAAEAAAAAAAIAAA=</HashCode>
+      <FileName>Methods\Invite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.Transport">
+    <Position X="6.25" Y="7.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Transport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.ClientTransaction">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAIAAAAAAACAAAAAAA=</HashCode>
+      <FileName>ClientTransaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.Messages.Request">
+    <Position X="10.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABgAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Methods\Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.TransactionUser">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransactionUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.UserAgentClient">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAABEAAAAAAA=</HashCode>
+      <FileName>UserAgentClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.Headers.SipMessage">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAABAAAAAAAIAAQEAAAAAAAAWAA=</HashCode>
+      <FileName>Message\SipMessage.cs</FileName>
+      <NewMemberFileName>Message\SIPMessage.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.RequestFactory">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RequestFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.UserAgentServer" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>UserAgentServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.SipAddress">
+    <Position X="8.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>SipAddress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.SipAddresses">
+    <Position X="8.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SipAddressCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.Dialog">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAABAAEAAAAAAACAIAAgAIAAAAAAAABCAIAAA=</HashCode>
+      <FileName>Dialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.UserAgent">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Konnetic.Sip.UserAgent.CallSetupEventHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>UserAgent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <AssociationLine Name="Calls" Type="Konnetic.Sip.Dialog" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="4.101" />
+        <Point X="2.5" Y="4.101" />
+        <Point X="2.5" Y="3.25" />
+        <Point X="3.469" Y="3.25" />
+        <Point X="3.469" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAQAEAAAABAABAAAgAAAAAAgAABAAAAgAAAAQ=</HashCode>
+      <FileName>UserAgent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Client" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Calls" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Konnetic.Sip.CallSetupEventArgs">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CallSetupEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.Headers.RequestMessageFormatter">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAgAAAAAAAgAAAAAAAIAAA=</HashCode>
+      <FileName>Message\RequestMessageFormatter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Konnetic.Sip.Headers.HeaderField" Collapsed="true">
+    <Position X="10.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAoACAAEAACFAEgAEEAAAAACCQAIAAACIwgAAAACQ=</HashCode>
+      <FileName>Message\HeaderField.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Konnetic.Sip.Headers.CallIdHeaderField" Collapsed="true">
+    <Position X="10.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACBAAAAAAAAgAAAAAAAAAAAAAAIAEAA=</HashCode>
+      <FileName>Message\CallIdHeaderField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Konnetic.Sip.Messages.SipMethod" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAFA=</HashCode>
+      <FileName>Methods\SipMethod.cs</FileName>
+      <NewMemberFileName>Methods\SIPMethod.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Konnetic.Sip.DialogState">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAGABA=</HashCode>
+      <FileName>DialogState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

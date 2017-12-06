@@ -1,0 +1,8 @@
+INVITE sip:Bob@localhost SIP/2.0
+Via: SIP/2.0/TCP ;branch=z9hG4bKd3ecb82f
+To: <sip:Bob@localhost>
+From: <sip:Fred@localhost>;tag=c324375
+Call-ID: 
+Max-Forwards: 70
+Route: 
+CSeq: 292959193 INVITE

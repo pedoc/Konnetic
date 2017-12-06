@@ -1,0 +1,6 @@
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\bin\Release\Konnetic.Sip.dll.config
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\bin\Release\Konnetic.Sip.dll
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\obj\Release\ResolveAssemblyReference.cache
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\obj\Release\Konnetic.Sip.dll
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\obj\Release\Konnetic.Sip.Resources.Konnetic.Sip.resources
+D:\Business\Development\Konnetic\UnifySipApi\Production\Src\Konnetic Unify SIP API\Konnetic.Sip\obj\Release\Konnetic.Sip.csproj.GenerateResource.Cache
